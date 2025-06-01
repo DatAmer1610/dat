@@ -43,5 +43,26 @@
   </footer>
 
   <script src="script.js"></script>
+  <!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "18633711794",
+    authDomain: "18633711794.firebaseapp.com",
+    databaseURL: "https://18633711794-default-rtdb.firebaseio.com",
+    projectId: "18633711794",
+    storageBucket: "18633711794.appspot.com",
+    messagingSenderId: "SENDER_ID",
+    appId: "APP_ID"
+  };
+
+  const app = firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+</script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
